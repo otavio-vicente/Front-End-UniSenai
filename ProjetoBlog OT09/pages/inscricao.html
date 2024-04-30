@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Início</title>
+    <link rel="stylesheet" href="/ProjetoBlog OT09/css/style.css">
+    <script src="/ProjetoBlog OT09/js/site.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1><a href="/ProjetoBlog OT09/pages/index.html">TÊNNIS TODAY</a></h1>
+            <img src="/ProjetoBlog OT09/images/tenis.png" alt="tenis-logo" height="40px">
+        </div>
+        <div class="links-apps">
+            <a href="#"><img src="/ProjetoBlog OT09/images/instagram.png" alt="link-instagram" height="35px"></a>
+            <a href="#"><img src="/ProjetoBlog OT09/images/twitter.png" alt="link-twitter" height="35px"></a>
+            <a href="#"><img src="/ProjetoBlog OT09/images/tik-tok.png" alt="link-tiktok" height="35px"></a>
+        </div>
+        
+    </header>
+    <nav>
+        <section></section>
+        <section class="navegacao">
+            <a href="/ProjetoBlog OT09/pages/index.html">Inicial</a>
+            <a href="/ProjetoBlog OT09/pages/conteudo.html">Conteúdo</a>
+            <a href="/ProjetoBlog OT09/pages/inscricao.html">Inscrição</a>
+        </section>
+        <section></section>
+    </nav>
+    <section class="inscricao">
+        <div class="conteudo-inscricao">
+            <p>Inscreva-se! Para receber notificações de promoções, posts relevantes e novidades no mundo dos tênis de corrida.</p>
+
+            <form name="frminscricao" action="#" method="get">
+                <label for="nome">Nome:</label>
+                <input type="text" name="txtnome" required><br>
+                <label for="fone">Telefone:</label>
+                <input type="tel" name="fone" required><br>
+                <label for="cep">CEP:</label>
+                <input type="text" id="txtcep" required><br>
+                <label for="sexo">Sexo:</label>
+                <input type="radio" name="radiosexo"><label for="masculino">Masculino</label>  
+                <input type="radio" name="radiosexo"><label for="feminino">Feminino</label><br>
+                <label for="email">Email:</label>
+                <input type="email" name="email" required><br>
+                <input type="checkbox" name="checknotificacoes"><label>Desejo receber notificações.</label><br>
+                <input class="botao" onclick="validaInscricao()" type="submit" value="Enviar">
+                <input class="botao" type="reset" value="Limpar">
+            </form>
+        </div>
+
+        <img src="/ProjetoBlog OT09/images/grupo-de-homens-correndo.png" alt="grupo-de-homens-correndo">
+
+    </section>
+    
+    <footer>
+        <p>&copy; Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

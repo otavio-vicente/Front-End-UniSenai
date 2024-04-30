@@ -1,0 +1,242 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header{
+    display: flex;
+    background-color: #4E70B1;
+    width: 100%;
+    height: 100%;
+}
+
+.logo {
+    display: flex;
+    padding: 10px;
+    height: 100%;
+    font-family: 'Andale Mono', monospace;
+}
+
+.logo h1{
+    width: 40%;
+    float: left;
+    text-align: center;
+    align-content: center;
+}
+.logo h1 a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.logo img {
+    align-content: center;
+    align-content: center;
+}
+
+.links-apps{
+    align-content: center;
+    margin-right: 30px;
+}
+header .logo{
+    width: 50%;
+}
+
+header .links-apps{
+    float: right;
+    width: 50%;
+    text-align: right;
+}
+
+.links-apps a{
+    margin: 2px;
+}
+/*====== fim cabeçalho ====== */
+
+nav{
+    display: flex;
+}
+nav section{
+    text-align: center;
+    height: 30px;
+    width: 33.33%;
+}
+nav section a{
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-flex;
+    align-content: center;
+    margin-top: 6px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-radius: 10px;
+    padding: 5px;
+}
+nav section a:hover{
+    background-color: #6495ED;
+    transition: background-color 0.5s;
+
+}
+
+
+.navegacao{
+    background-color: #2F436B;
+    text-align: center;
+    padding-bottom: 9px;
+}
+
+/*======= fim navegação ======*/
+
+/*====== inicio texto de introducao index ====== */
+
+.introducao {
+    display: flex;
+    width: 100%;
+}
+.introducao p {
+    width: 50%;
+    margin-left: 40px;
+    align-content: center;
+    font-size: 15px;
+    margin-top: 40px;
+}
+
+.introducao img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+/*====== fim texto de introducao index ====== */
+
+footer {
+    width: 100%;
+    text-align: center;
+    background-color: #4E70B1;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+}
+
+/*===== fim rodape ========= */
+
+/*===== inicio conteudo inscricao ========= */
+
+.inscricao {
+    width: max-content;
+    display: flex;
+}
+.inscricao img {
+    width: 20%;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 90px;
+}
+.inscricao .conteudo-inscricao {
+    align-content: center;
+    margin-left: 40px;
+    width: 50%;
+}
+
+.inscricao form {
+    background-color: #4E70B1;
+    border: 2px solid;
+    border-radius: 20px;
+    height: 50%;
+    padding: 20px;
+    width: 40%;
+    align-content: center;
+    margin: 0 auto;
+}
+.inscricao p{
+    height: 40%;
+    align-content: center;
+}
+
+input {
+    margin: 5px;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 3px;
+}
+
+.botao{
+    background-color: #7697d4;
+    padding: 5px;
+    margin-left: auto;
+}
+.botao:hover {
+    background-color: #2d5cb3;
+    transition: background-color 0.5s;
+}
+
+form .botao{
+    text-align: center;
+    width: 30%;
+}
+
+/*===== fim conteudo inscricao ========= */
+
+/*===== inicio conteudo conteudo ========= */
+.conteudo {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.conteudo .noticia-atual img {
+    width: 200px;
+    height: 200px;
+}
+
+.conteudo .img-cronometro img{
+    
+    width: 150px;
+}
+
+.conteudo .noticias-anteriores img {
+    width: 100px;
+    height: 100px;
+}
+
+.conteudo .noticia-atual {
+    display: flex;
+    margin: auto;
+    margin-left: 40px;
+}
+.conteudo .noticia-atual a {
+    align-content: center;
+    margin-left: 10px;
+    width: 40%;
+    color: #000000;
+}
+
+.conteudo .noticia-atual a:hover {
+    background-color: #8fafe9;
+    transition: background-color 0.9s;
+}
+
+.conteudo .img-cronometro {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.conteudo .noticias-anteriores p {
+    margin: 10px;
+}
+.conteudo .noticias-anteriores a {
+    color: #000000;
+}
+.conteudo .noticias-anteriores a p:hover {
+    background-color: #8fafe9;
+    transition: background-color 0.9s;
+}
+
+/*===== fim conteudo conteudo ========= */
+

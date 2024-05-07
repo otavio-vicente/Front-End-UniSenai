@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Início</title>
+    <link rel="stylesheet" href="/ProjetoBlog OT10/css/style.css">
+    <script
+  src="https://code.jquery.com/jquery-3.7.1.min.js"
+  integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+  crossorigin="anonymous"></script>
+    <script src="/ProjetoBlog OT10/js/site.js"></script>
+</head>
+<body>
+    <header>        
+    </header>
+    <nav>
+    </nav>
+    <section class="inscricao">
+        <div class="conteudo-inscricao">
+            <p>Inscreva-se! Para receber notificações de promoções, posts relevantes e novidades no mundo dos tênis de corrida.</p>
+
+            <form name="frminscricao" action="#" method="get">
+                <label for="nome">Nome:</label>
+                <input type="text" name="txtnome" required><br>
+                <label for="fone">Telefone:</label>
+				<input type="text" name="txtfone" id="fone" placeholder="Ex: (xx)xxxxx-xxxx" required><br>
+                <label for="txtcep">CEP:</label>
+                <input type="text" id="txtcep" placeholder="Ex: xxxxx-xxx" required><br>
+                <label for="sexo">Sexo:</label>
+                <input type="radio" name="radiosexo"><label for="masculino">Masculino</label>  
+                <input type="radio" name="radiosexo"><label for="feminino">Feminino</label><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+                <input type="checkbox" id="checkbox" name="checknotificacoes" required><label>Desejo receber notificações.</label><br>
+                <input class="botao" onclick="validaInscricao()" type="submit" value="Enviar">
+                <input class="botao" type="reset" value="Limpar">
+            </form>
+        </div>
+
+        <img src="/ProjetoBlog OT10/images/grupo-de-homens-correndo.png" alt="grupo-de-homens-correndo">
+
+    </section>
+    
+    <footer>
+    </footer>
+</body>
+</html>

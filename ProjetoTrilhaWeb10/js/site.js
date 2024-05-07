@@ -150,7 +150,7 @@ function verificaMotivo(motivo){
 //Assim que o documento HTML for carregada por completo...
 $(document).ready(function(){
     //Carrega cabeçalho, menu e rodapé aos respectivos
-    $("header").load("/ProjetoTrilhaWeb10/pages/site/general/cabacalho.html");
+    $("header").load("/ProjetoTrilhaWeb10/pages/site/general/cabecalho.html");
     $("nav").load("/ProjetoTrilhaWeb10/pages/site/general/menu.html");
     $("footer").load("/ProjetoTrilhaWeb10/pages/site/general/rodape.html");
 });

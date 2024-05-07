@@ -48,8 +48,8 @@ function validaInscricao() {
 
 $(document).ready(function(){
     //Carrega cabeçalho, menu e rodapé aos respectivos
-    $("header").load("/ProjetoBlog OT10/pages/general");
-    $("nav").load("/ProjetoBlog OT10/pages/general/menu.html");
-    $("footer").load("/ProjetoBlog OT10/pages/general/rodape.html");
+    $("header").load("/ProjetoBlogOT10/pages/general/cabecalho.html");
+    $("nav").load("/ProjetoBlogOT10/pages/general/menu.html");
+    $("footer").load("/ProjetoBlogOT10/pages/general/rodape.html");
 });
     
